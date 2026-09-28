@@ -97,4 +97,19 @@ Ce rapport sera complété progressivement. Pour chaque tâche, je présenterai 
 **Capture d’écran :**
 <img width="1865" height="1031" alt="image" src="https://github.com/user-attachments/assets/82ea6038-55f9-4f8c-ba29-73ebbe82e90b" />
 
+### Tâche 3.2 — Copier le code dans Cloud9
+
+**Objectif :** récupérer le code de l’application monolithique dans l’environnement de développement.
+
+**Actions réalisées :**
+- Importation de la clé SSH dans Cloud9.
+- Protection de la clé avec `chmod 400`.
+- Création du dossier `~/environment/temp`.
+- Copie du code depuis MonolithicAppServer avec `scp`.
+- Vérification des fichiers avec `ls ~/environment/temp`.
+
+**Résultat :** le code de l’application est disponible dans le dossier `temp` de Cloud9.
+
+**Capture d’écran :**
+<img width="1895" height="1091" alt="image" src="https://github.com/user-attachments/assets/83bbcc0f-f27f-4805-9c3c-8319286acce3" />
 
