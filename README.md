@@ -113,3 +113,20 @@ Ce rapport sera complété progressivement. Pour chaque tâche, je présenterai 
 **Capture d’écran :**
 <img width="1895" height="1091" alt="image" src="https://github.com/user-attachments/assets/83bbcc0f-f27f-4805-9c3c-8319286acce3" />
 
+### Tâche 3.3 — Préparer les dossiers des microservices
+
+**Objectif :** préparer deux copies du code pour les futurs services client et employé.
+
+**Actions réalisées :**
+- Création des dossiers `microservices/customer` et `microservices/employee`.
+- Copie du code de l’application dans chaque dossier.
+- Vérification avec `diff` : les deux copies sont identiques au code original.
+- Suppression du dossier temporaire `temp`.
+
+**Résultat :** les deux dossiers contiennent le code de départ. Leurs fonctionnalités seront adaptées pendant la phase 4.
+
+**Difficulté rencontrée :** une première vérification a révélé des fichiers manquants. La copie a été refaite, puis vérifiée avec succès.
+
+**Capture d’écran :**
+<img width="1887" height="1032" alt="image" src="https://github.com/user-attachments/assets/3237faa5-50ef-402c-b3a2-54bd59670971" />
+
