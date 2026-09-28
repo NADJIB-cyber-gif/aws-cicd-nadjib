@@ -52,5 +52,31 @@ Ce rapport sera complété progressivement. Pour chaque tâche, je présenterai 
 **Capture d’écran :**
 <img width="1905" height="1072" alt="image" src="https://github.com/user-attachments/assets/b317235c-9180-4ec6-9342-4262e77c3339" />
 
-**Capture d’écran :**
+### Tâche 2.3 — Analyser le fonctionnement de l’application
+
+**Objectif :** comprendre comment l’application s’exécute et où ses données sont stockées.
+
+**Actions réalisées :**
+- Connexion au serveur MonolithicAppServer avec EC2 Instance Connect.
+- Vérification du port 80 avec `sudo lsof -i :80`.
+- Identification du processus avec `ps -ef | head -1; ps -ef | grep node`.
+- Consultation des fichiers dans `~/resources/codebase_partner`.
+- Vérification de l’accès à RDS avec `nmap -Pn` : le port 3306/TCP est ouvert.
+- Connexion à MySQL et exécution des commandes suivantes :
+  - `SHOW DATABASES;`
+  - `USE COFFEE;`
+  - `SHOW TABLES;`
+  - `SELECT * FROM suppliers;`
+
+**Résultats :**
+- L’application est exécutée sur EC2 par Node.js avec la commande `node index.js`.
+- Le processus utilise le compte root, porte le PID 470 et écoute sur le port 80.
+- Les données sont stockées dans RDS, dans la table `suppliers` de la base `COFFEE`.
+- Le fournisseur « Cafe Test Nadjib » et sa ville « laval » sont présents dans la table.
+
+**Difficulté rencontrée :** la connexion MySQL a d’abord retourné « Access denied ». Une nouvelle saisie des identifiants a permis la connexion.
+
+**Captures d’écran :**
+<img width="1851" height="986" alt="image" src="https://github.com/user-attachments/assets/12479856-16a8-4619-b087-607353d934ae" />
+
 
