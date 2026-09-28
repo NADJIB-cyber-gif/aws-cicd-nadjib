@@ -79,4 +79,22 @@ Ce rapport sera complété progressivement. Pour chaque tâche, je présenterai 
 **Captures d’écran :**
 <img width="1851" height="986" alt="image" src="https://github.com/user-attachments/assets/12479856-16a8-4619-b087-607353d934ae" />
 
+### Tâche 3.1 — Créer l’environnement de développement Cloud9
+
+**Objectif :** préparer un espace de travail pour modifier le code et tester les microservices.
+
+**Configuration :**
+- Nom : MicroservicesIDE
+- Nouvelle instance EC2 : t3.small
+- Système : Amazon Linux 2023
+- Connexion : SSH
+- Réseau : LabVPC
+- Sous-réseau : Public Subnet 1
+- Mise en veille après 30 minutes d’inactivité
+
+**Résultat :** l’environnement Cloud9 est créé et l’éditeur est ouvert.
+
+**Capture d’écran :**
+<img width="1865" height="1031" alt="image" src="https://github.com/user-attachments/assets/82ea6038-55f9-4f8c-ba29-73ebbe82e90b" />
+
 
