@@ -147,4 +147,18 @@ Ce rapport sera complété progressivement. Pour chaque tâche, je présenterai 
 **Capture d’écran :**
 <img width="1867" height="1005" alt="image" src="https://github.com/user-attachments/assets/85b87ba6-d163-45de-ae0a-3f5931fb9b74" />
 
+### Tâche 4.1 — Configurer les accès aux conteneurs de test
+
+**Objectif :** permettre l’accès aux microservices depuis un navigateur.
+
+**Actions réalisées :**
+- Ouverture du groupe de sécurité de l’instance Cloud9 MicroservicesIDE.
+- Ajout de deux règles entrantes TCP : ports 8080 et 8081.
+- Source des nouvelles règles : `0.0.0.0/0` (Anywhere-IPv4).
+- Conservation des règles SSH existantes et enregistrement des modifications.
+
+**Résultat :** les règles réseau autorisent les connexions aux ports de test. Les conteneurs seront lancés dans les tâches suivantes.
+
+**Capture d’écran :**
+<img width="1882" height="975" alt="image" src="https://github.com/user-attachments/assets/72013ace-b58c-46df-983f-ad95cce30058" />
 
