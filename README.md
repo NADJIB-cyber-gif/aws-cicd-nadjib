@@ -37,6 +37,20 @@ Ce rapport sera complété progressivement. Pour chaque tâche, je présenterai 
 **Résultat :** la page « Monolithic Coffee suppliers » s’affiche correctement.
 <img width="1826" height="1076" alt="image" src="https://github.com/user-attachments/assets/685a860e-bf28-433d-b7dd-12c7aff38add" />
 
+### Tâche 2.2 — Tester l’application web monolithique
+
+**Objectif :** vérifier l’ajout et la modification d’un fournisseur.
+
+**Actions réalisées :**
+- Consultation de la liste des fournisseurs sur `/suppliers`.
+- Ajout du fournisseur fictif « Cafe Test Nadjib » sur `/supplier-add`.
+- Modification de sa ville de Montreal à Laval.
+- Utilisation de coordonnées fictives pour les tests.
+
+**Résultat :** le fournisseur apparaît dans la liste et la modification de la ville est enregistrée.
+
+**Capture d’écran :**
+<img width="1905" height="1072" alt="image" src="https://github.com/user-attachments/assets/b317235c-9180-4ec6-9342-4262e77c3339" />
 
 **Capture d’écran :**
 
