@@ -162,3 +162,20 @@ Ce rapport sera complété progressivement. Pour chaque tâche, je présenterai 
 **Capture d’écran :**
 <img width="1882" height="975" alt="image" src="https://github.com/user-attachments/assets/72013ace-b58c-46df-983f-ad95cce30058" />
 
+### Tâche 4.2 — Adapter le microservice client
+
+**Objectif :** limiter le service client à la consultation des fournisseurs.
+
+**Actions réalisées :**
+- Conservation de `findAll` et `findOne` dans le contrôleur.
+- Conservation de `getAll` et `findById` dans le modèle.
+- Retrait des fonctions d’ajout, de modification et de suppression.
+- Modification du menu et ajout du lien vers `/admin/suppliers`.
+- Retrait des boutons de gestion et des formulaires inutiles.
+- Désactivation des routes de gestion dans `index.js`.
+- Configuration du port par défaut à 8080.
+
+**Résultat :** le code du service client est adapté à la lecture seule. Son fonctionnement sera testé avec Docker à la tâche 4.3.
+
+**Capture d’écran :**
+<img width="1897" height="1080" alt="image" src="https://github.com/user-attachments/assets/058204ef-68bc-4def-9707-7874813a7c16" />
