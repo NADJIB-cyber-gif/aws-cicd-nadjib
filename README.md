@@ -130,3 +130,21 @@ Ce rapport sera complété progressivement. Pour chaque tâche, je présenterai 
 **Capture d’écran :**
 <img width="1887" height="1032" alt="image" src="https://github.com/user-attachments/assets/3237faa5-50ef-402c-b3a2-54bd59670971" />
 
+### Tâche 3.4 — Enregistrer le code dans CodeCommit
+
+**Objectif :** conserver les versions du code dans un dépôt Git distant.
+
+**Actions réalisées :**
+- Création du dépôt AWS CodeCommit `microservices`.
+- Initialisation de Git dans le dossier `microservices`.
+- Création de la branche `dev` et configuration de l’auteur des commits.
+- Enregistrement de la première version avec `git add` et `git commit`.
+- Connexion au dépôt distant et envoi du code avec `git push`.
+- Vérification des dossiers dans la console CodeCommit.
+
+**Résultat :** les dossiers `customer` et `employee` sont présents dans le dépôt `microservices`, sur la branche `dev`.
+
+**Capture d’écran :**
+<img width="1867" height="1005" alt="image" src="https://github.com/user-attachments/assets/85b87ba6-d163-45de-ae0a-3f5931fb9b74" />
+
+
